@@ -1,0 +1,2 @@
+execute if entity @a[scores={down_seconds=0..9}] run title @a actionbar ["",{"score":{"name":"@a","objective":"down_minutes"}},{"text":":0"},{"score":{"name":"@a","objective":"down_seconds"}}]
+execute unless entity @a[scores={down_seconds=0..9}] run title @a actionbar ["",{"score":{"name":"@a","objective":"down_minutes"}},{"text":":"},{"score":{"name":"@a","objective":"down_seconds"}}]
