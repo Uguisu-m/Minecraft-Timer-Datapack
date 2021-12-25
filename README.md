@@ -1,19 +1,19 @@
 # Minecraft-Timer-Datapack
-Minecraft ver1.13~1.18.1 まで動作確認済み。1.13 以前は対応していません。
+Minecraft ver1.13~1.18.1 まで動作確認済み。1.13 以前は対応していません。  
 アクションバーにタイマーを表示するDatapackです。カウントアップ機能(ストップウォッチ)/カウントダウン機能/一時停止機能が使用可能です。
 データパック導入後/reloadコマンドを打つと導入成功のメッセージがチャット欄に表示されるようになっています。
 
 1.使用方法
 
-  ・カウントアップ機能使用方法
-   1./function timer:add/start を実行するとタイマーがカウントアップを始めます。
-   2./function timer:add/stop を実行するとタイマーが停止し、カウントが0:00に戻ります。
-   3./function timer:add/temporary_stop　を実行するとタイマーが一時停止します。
-   4. 一時停止後　/function timer:add/restart　を実行するとカウントアップが再開されます。
+  ・カウントアップ機能使用方法  
+   1./function timer:add/start を実行するとタイマーがカウントアップを始めます。  
+   2./function timer:add/stop を実行するとタイマーが停止し、カウントが0:00に戻ります。  
+   3./function timer:add/temporary_stop　を実行するとタイマーが一時停止します。  
+   4. 一時停止後　/function timer:add/restart　を実行するとカウントアップが再開されます。  
    
    
-   ・カウントダウン機能使用方法
-   1./function timer:down/set　を実行すると、チャット欄にタイマーセット用のメッセージが表示されるので、クリックして設定してください。
+   ・カウントダウン機能使用方法  
+   1./function timer:down/set　を実行すると、  チャット欄にタイマーセット用のメッセージが表示されるので、クリックして設定してください。
    2./function timer:down/start を実行するとタイマーがカウントダウンを始めます。
    3./function timer:down/stop を実行するとタイマーが停止し、カウントが設定した時間に戻ります。
    4./function timer:down/temporary_stop　を実行するとタイマーが一時停止します。
