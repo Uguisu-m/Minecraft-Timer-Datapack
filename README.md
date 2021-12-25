@@ -29,12 +29,12 @@ Minecraft ver1.13~1.18.1 まで動作確認済み。1.13 以前は対応して�
    4. 一時停止後　/function timer:stopwatch/restart　を実行するとカウントアップが再開されます。
    
    ・全体
-   1./function timer:display_clear を実行するとタイマーが表示されなくなります。(表示されないだけで処理は続いています。)
-   2./function timer:reset を実行するとすべてのタイマーの処理と表示がリセットされます。バグったときなどに実行してください。
+   1./function timer:display_clear を実行するとタイマーが表示されなくなります。(表示されないだけで処理は続いています。  
+   2./function timer:reset を実行するとすべてのタイマーの処理と表示がリセットされます。バグったときなどに実行してください。  
    
 
 
-2.Datapackに組み込む際のアドバイス
-  ・このdatapackではタイマーを常時表示させるために function timer:tick を毎tick実行しています。
+2.Datapackに組み込む際のアドバイス  
+  ・このdatapackではタイマーを常時表示させるために function timer:tick を毎tick実行しています。  
     ほかにアクションバーに常時表示させたいタイトルがあれば timer:tick に記述してください。(そうしないと上書きされてしまいうまく表示されません)
   ・
