@@ -28,7 +28,7 @@ Minecraft ver1.13~1.18.1 まで動作確認済み。1.13 以前は対応して�
    3./function timer:stopwatch/temporary_stop　を実行するとタイマーが一時停止します。  
    4. 一時停止後　/function timer:stopwatch/restart　を実行するとカウントアップが再開されます。  
    
-   ・全体
+   ・全体  
    1./function timer:display_clear を実行するとタイマーが表示されなくなります。(表示されないだけで処理は続いています。  
    2./function timer:reset を実行するとすべてのタイマーの処理と表示がリセットされます。バグったときなどに実行してください。  
    
