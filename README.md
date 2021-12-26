@@ -13,7 +13,7 @@ Minecraft ver1.13~1.18.1 まで動作確認済み。1.13 以前は対応して�
    
    
    ・カウントダウン機能使用方法  
-   1./function timer:down/set　を実行すると、  チャット欄にタイマーセット用のメッセージが表示されるので、クリックして設定してください。  
+   1./function timer:down/set を実行すると、チャット欄にタイマーセット用のメッセージが表示されるので、クリックして設定してください。  
    2./function timer:down/start を実行するとタイマーがカウントダウンを始めます。  
    3./function timer:down/stop を実行するとタイマーが停止し、カウントが設定した時間に戻ります。  
    4./function timer:down/temporary_stop　を実行するとタイマーが一時停止します。  
