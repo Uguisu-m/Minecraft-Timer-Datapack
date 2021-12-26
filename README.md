@@ -23,10 +23,10 @@ Minecraft ver1.13~1.18.1 まで動作確認済み。1.13 以前は対応して�
    
    
    ・ストップウォッチ機能仕様方法(※ストップウォッチ機能では、1tick(=0.05秒)まで細かく計れます)  
-   1./function timer:stopwatch/start を実行するとタイマーがカウントアップを始めます。　　
-   2./function timer:stopwatch/stop を実行するとタイマーが停止し、カウントが0:00:00に戻ります。　　
-   3./function timer:stopwatch/temporary_stop　を実行するとタイマーが一時停止します。
-   4. 一時停止後　/function timer:stopwatch/restart　を実行するとカウントアップが再開されます。
+   1./function timer:stopwatch/start を実行するとタイマーがカウントアップを始めます。  
+   2./function timer:stopwatch/stop を実行するとタイマーが停止し、カウントが0:00:00に戻ります。  
+   3./function timer:stopwatch/temporary_stop　を実行するとタイマーが一時停止します。  
+   4. 一時停止後　/function timer:stopwatch/restart　を実行するとカウントアップが再開されます。  
    
    ・全体
    1./function timer:display_clear を実行するとタイマーが表示されなくなります。(表示されないだけで処理は続いています。  
@@ -36,5 +36,4 @@ Minecraft ver1.13~1.18.1 まで動作確認済み。1.13 以前は対応して�
 
 2.Datapackに組み込む際のアドバイス  
   ・このdatapackではタイマーを常時表示させるために function timer:tick を毎tick実行しています。  
-    ほかにアクションバーに常時表示させたいタイトルがあれば timer:tick に記述してください。(そうしないと上書きされてしまいうまく表示されません)
-  ・
+    ほかにアクションバーに常時表示させたいタイトルがあれば timer:tick に記述してください。(そうしないと上書きされてしまいうまく表示されません)  
