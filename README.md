@@ -16,8 +16,8 @@ Minecraft ver1.13~1.18.1 まで対応。1.13 より前のバージョンには�
    1./function timer:down/set を実行すると、チャット欄にタイマーセット用のメッセージが表示されるので、クリックして設定してください。  
    2./function timer:down/start を実行するとタイマーがカウントダウンを始めます。  
    3./function timer:down/stop を実行するとタイマーが停止し、カウントが設定した時間に戻ります。  
-   4./function timer:down/temporary_stop　を実行するとタイマーが一時停止します。  
-   5. 一時停止後　/function timer:down/restart　を実行するとカウントダウンが再開されます。  
+   4./function timer:down/temporary_stop を実行するとタイマーが一時停止します。  
+   5. 一時停止後　/function timer:down/restart を実行するとカウントダウンが再開されます。  
    6. タイマー終了時の音は timer:down/sound で設定可能です。  
    7. タイマー終了時に timer:down/end_process が実行されます。終了時の処理はここに書いてください。  
    
